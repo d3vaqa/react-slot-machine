@@ -6,8 +6,8 @@ function App() {
   
 
   return (
-    <div>
-      <Machine 
+    <div className="Machine">
+      <Machine
         s1="🍒"
         s2="🍉"
         s3="🍇"/> 
@@ -23,7 +23,8 @@ function App() {
         <Machine 
         s1="🍉"
         s2="🍉"
-        s3="🍉"/> 
+        s3="🍉"        
+        /> 
     </div>
   )
 }
